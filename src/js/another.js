@@ -1,8 +1,6 @@
 export function mov(firstRegister, secondRegister) {
   if (firstRegister.innerHTML != 0) {
-    secondRegister.innerHTML = firstRegister.innerHTML;
-  } else if (firstRegister.innerHTML == 0) {
-    secondRegister.innerHTML = 0;
+    firstRegister.innerHTML = secondRegister.innerHTML;
   }
 }
 export function xchg(firstRegister, secondRegister) {
